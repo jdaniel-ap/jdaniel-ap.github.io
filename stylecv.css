@@ -2,13 +2,19 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #00343d;
     scroll-behavior: smooth;
+    color: #00343d;
+}
+.icon {
+    font-size: 40px;
+    padding: 10px;
+    transition: 0.5s;
 }
 
 h1 {
     cursor: pointer;
     transition: 0.5s;
+    color: #00343d;
 }
 
 img {
@@ -22,6 +28,8 @@ fieldset {
 
 p {
     font-weight: 500;
+    font-size: 15px;
+    color: #00343d;
 }
 
 li {
@@ -44,69 +52,37 @@ li {
 
 .secondZone {
     background-color: #2ed573;
-    padding: 100px;
+    padding: 8%;
     text-align: center;
-    height: 450px;
+    height: 100%;
     line-height: 35px;
 }
 
-.secondZone p {
+.secondZone p, .secondZone h2 {
     color: white;
-    padding: 20px;
 }
 
-.secondZone h2 {
-    color: white;
-    padding: 20px;
-    font-weight: 800;
-}
-
-.moreInfoBlocks {
+fieldset {
+    margin: 10px 40px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: white;
-    border-radius: 10px;
-    margin-top: 70px;
-    width: auto;
-    height: 200px;
-}
-
-.trayectory {
-    padding: 55px 100px;
-    text-align: center;
     display: inline-block;
-    transition: 0.5s;
-    
+    width: 200px;
+    height: 22em;
+    transition: 0.6s;
+    font-size: 12px;
 }
 
-.fieldsBlocks {
-    width: 384.2px;
-    float: left;
-    border: none;
-    border-radius: 10px;
-    transition: 0.5s;
-    cursor: default;
+fieldset:hover {
+    transform: scale(1.1, 1.1);
+    -webkit-box-shadow: 17px 14px 32px 6px rgba(0,0,0,0.72); 
+    box-shadow: 17px 14px 32px 6px rgba(0,0,0,0.72);
 }
 
-.fourZone-1 {
-    display: inline-block;
-    background-color: #2ed573;
-    padding: 100px;
-    text-align: center;
-    height: 450px;
-    line-height: 35px;
+.thirdZone {
+    background-color: #00343d;
 }
-
-.fourZone-1 h2, p {
-    color: white;
-    padding-top: 30px;
-    line-height: 35px;
-}
-
-.fourZone-1 p {
-    padding: 20px;
-}
-
-
-
 
 .fa-caret-down {
     font-size: 80px; 
@@ -115,14 +91,9 @@ li {
     transition: 0.4s;
 }
 
-.icon {
-    font-size: 40px;
-    padding: 10px;
-}
 
-.track4 {
-    margin-top: none;
-}
+
+
 
 /*Animations*/
 
