@@ -3,7 +3,6 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
-    color: #00343d;
 }
 .icon {
     font-size: 40px;
@@ -40,6 +39,7 @@ li {
 }
 .icon{
     transition: 0.5s;
+    color: #00343d;
 }
 
 .firstZone {
@@ -48,6 +48,10 @@ li {
     margin: 0px 0px 70px 0px;
     height: 425px;
     
+}
+
+.firstZone .fa-caret-down {
+    color: #00343d;
 }
 
 .secondZone {
@@ -77,7 +81,7 @@ fieldset {
 
 
 .thirdZone {
-    background-color: #00343d;
+    background-color: #1e272e;
 }
 
 .fa-caret-down {
@@ -85,6 +89,7 @@ fieldset {
     padding-top: 5%; 
     cursor: pointer;
     transition: 0.4s;
+    color: white;
 }
 
 .wrapper{
@@ -96,7 +101,7 @@ fieldset {
     box-sizing: border-box;
     border-radius: 10px;
     cursor: pointer;
-    background: #ff4757;
+    background: #7d5fff;
     max-width: 300px;
     min-height: 250px;
     padding: 30px;
@@ -144,10 +149,19 @@ fieldset {
     background: #38ada9;
  }
  .carticas:nth-child(4){
-    background: #b71540;
+    background: #808e9b;
  }
  .carticas:nth-child(5){
     background: #1e3799;
+ }
+ .carticas:nth-child(6){
+    background: #ef5777;
+ }
+ .carticas:nth-child(7){
+    background: #ffa801;
+ }
+ .carticas:nth-child(8){
+   background: #4bcffa;
  }
 .carticas:last-child {
    background: #2ed573;
@@ -162,9 +176,6 @@ fieldset {
 /*Animations*/
 
 
-h1:hover {
-    color: #ff4757;
-}
 
 .trayectory:hover {
     transform: scale(1.1, 1.1);
@@ -178,6 +189,7 @@ h1:hover {
 
 .icon:hover {
     transform: scale(1.5,1.5);
+    color: #ff4757; 
 }
 
 
@@ -192,5 +204,5 @@ fieldset:hover {
     transform: scale(1.1, 1.1);
     -webkit-box-shadow: 17px 14px 32px 6px rgba(255, 255, 255, 0.158); 
     box-shadow: 17px 14px 32px 6px rgba(255, 255, 255, 0.185);
-    background-color: #2f3640;
+    background-color: #ff3838;
 }
