@@ -79,14 +79,42 @@ li {
     box-sizing: border-box;
     border-radius: 10px;
     cursor: pointer;
-    background: #7d5fff;
+    background: #273c75;
     max-width: 300px;
     min-height: 250px;
-    padding: 30px;
     margin:20px;
     box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
     text-align: center;
     transition: 0.8s;
+}
+.container2 .overlay {
+    background-image: url(../img/5c9a0401b7e3470363aa7b85.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+            }
+            
+.container3 .overlay {
+    background-image: url(../img/5c9a0467b7e3470363aa7b91.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.container4 .overlay {
+    background-image: url(../img/5c9a05dbb7e3470363aa7bb5.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.container5 .overlay {
+    background-image: url(../img/5c9a0959b7e3470363aa7c07.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.container6 .overlay {
+    background-image: url(../img/5c9a05b8b7e3470363aa7bb0.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .card-btn{
@@ -115,25 +143,28 @@ li {
 
 .carticas p {
     color: white;
+    padding: 5px 0px 15px 0px;
+    font-size: 14px;
 }
 
 .carticas h3 {
+    padding: 10px 0px 15px 0px;
     color: white;
 }
 .carticas:nth-child(2){
-   background: #5352ed;
+   background: #273c75;
 }
 .carticas:nth-child(3){
-    background: #38ada9;
+    background: #273c75;
  }
  .carticas:nth-child(4){
-    background: #808e9b;
+    background: #e55039;
  }
  .carticas:nth-child(5){
-    background: #1e3799;
+    background: #e55039;
  }
  .carticas:nth-child(6){
-    background: #ef5777;
+    background: #e55039;
  }
  .carticas:nth-child(7){
     background: #ffa801;
@@ -149,6 +180,19 @@ li {
     color: white;
     font-size: 15px;
     font-weight: 700;
+}
+
+.overlay {
+    width: 300px;
+    height: 250px;
+    background-image: url(../img/5c9a084cb7e3470363aa7bee.png);
+    background-size: contain;
+    transition: 0.8s;
+    filter: grayscale(100%);
+    border-radius: 10px 10px 0px 0px;
+    background-position: 10% 10%;
+
+
 }
 
 /*Animations*/
@@ -179,10 +223,13 @@ fieldset:hover {
 }
 
 .carticas:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.02, 1.02);
     -webkit-box-shadow: 17px 14px 32px 6px rgba(255, 255, 255, 0.158); 
     box-shadow: 17px 14px 32px 6px rgba(255, 255, 255, 0.185);
-    background-color: #ff3838;
+}
+
+.overlay:hover{
+    filter: grayscale(0%);
 }
 
 
