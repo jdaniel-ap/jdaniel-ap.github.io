@@ -61,19 +61,6 @@ li {
     color: white;
 }
 
-fieldset {
-    margin: 10px 40px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-    display: inline-block;
-    width: 200px;
-    height: 22em;
-    transition: 0.6s;
-    font-size: 12px;
-    
-}
-
 .fa-caret-down {
     font-size: 80px; 
     padding-top: 5%; 
@@ -197,3 +184,23 @@ fieldset:hover {
     box-shadow: 17px 14px 32px 6px rgba(255, 255, 255, 0.185);
     background-color: #ff3838;
 }
+
+
+/*Source
+box shadow: https://html-css-js.com/css/generator/box-shadow/
+
+colors: https://flatuicolors.com
+
+icons: https://fontawesome.com
+
+scroll: https://medium.com/@gabrielqn/criando-scroll-suave-para-links-interno-utilizando-apenas-css-33ef0877faf6
+
+
+
+
+
+
+
+
+
+*/
