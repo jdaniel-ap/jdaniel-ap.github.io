@@ -11,6 +11,10 @@ body {
 
 /* Navbar */
 
+.icons {
+	padding-right: 8px;
+}
+
 .wrapper {
 	position: fixed;
 	top: 0;
@@ -55,9 +59,30 @@ ul li {
 
 /* corpo */
 
+.wrapper-content {
+	flex: 80%;
+}
+
+aside {
+	flex: 20%;
+	margin-top: 3.7%;
+	margin-right: 2%;
+	color: #3d3d3d;
+	text-align: justify;
+}
+
+aside h2 {
+	transition: 0.5s;
+}
+
+aside p {
+	display: list-item;
+}
+
 main {
 	margin-top: 7%;
-	
+	display: flex;
+	flex-direction: row-reverse;
 }
 
 .article-title {
@@ -72,7 +97,7 @@ hr{
 }
 
 
-article {
+section {
 	margin: 0 auto;
 	width: 90%;
 	height: auto;
@@ -82,7 +107,7 @@ article {
 
 
 
-section {
+article {
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 	text-align: justify;
@@ -164,7 +189,7 @@ img {
 	margin-left: 11.5%;
 }
 
-article section p {
+section article p {
 	text-align: justify;
 	padding-bottom: 25px;
 	margin-left: 20px;
@@ -200,4 +225,8 @@ nav li:hover {
 
 .fa-paw:hover {
 	filter: brightness(5);
+}
+
+aside h2:hover {
+	transform: scale(1.1, 1.1);
 }
