@@ -4,11 +4,8 @@
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
-.icon {
-    font-size: 40px;
-    padding: 10px;
-    transition: 0.5s;
-}
+
+
 
 h1 {
     cursor: pointer;
@@ -33,6 +30,9 @@ li {
 
 }
 .icon{
+    font-size: 40px;
+    padding: 10px;
+    transition: 0.5s;
     transition: 0.5s;
     color: #00343d;
 }
@@ -47,6 +47,9 @@ li {
 
 .firstZone .fa-caret-down {
     color: #00343d;
+    animation-name: sobreponer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .secondZone {
@@ -67,6 +70,9 @@ li {
     cursor: pointer;
     transition: 0.4s;
     color: white;
+    animation-name: sobreponer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .wrapper{
@@ -230,6 +236,11 @@ fieldset:hover {
 
 .overlay:hover{
     filter: grayscale(0%);
+}
+
+@keyframes sobreponer {
+    from {transform: translateY();}
+    to {transform: translateY(8px);}
 }
 
 
