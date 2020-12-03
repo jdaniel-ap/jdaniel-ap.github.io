@@ -297,7 +297,6 @@ footer {
 @media (max-width: 890px) {
     section {
         flex-direction: column;
-        width: 170%;
 
     }
 }
@@ -305,6 +304,13 @@ footer {
 @media (max-width: 890px) {
     .main-content{
         flex-direction: column-reverse;
+
+    }
+}
+
+@media (max-width: 890px) {
+    .main-articles{
+        width: 80%;
 
     }
 }
