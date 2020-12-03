@@ -285,7 +285,7 @@ footer {
   }
 
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
     nav ul {
         justify-content: space-around;
         width: auto;
@@ -294,21 +294,22 @@ footer {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
     section {
         flex-direction: column;
+        width: 170%;
 
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
     .main-content{
         flex-direction: column-reverse;
 
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
     .tech-box, .tech-box2, .tech-box3, .tech-box4 {
         filter: grayscale(100%);
         background-color: transparent;
@@ -316,14 +317,14 @@ footer {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
     .second-article-section {
         flex-direction: row;
 
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
     img {
         max-width: 300px;
 
