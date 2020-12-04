@@ -243,6 +243,12 @@ button:hover {
     transform: translateY(20px);
 }
 
+@media (max-width: 800px) {
+    .phoneScreen{
+        width: 1000px;
+        height: auto;
+    }
+}
 
 
 @keyframes androidScreen {
