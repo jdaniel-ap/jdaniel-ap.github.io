@@ -220,13 +220,14 @@ h3 {
     content: "\f121";
     padding: 10px;
 }
-
-.ball {
+.projectContainer {
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: wheat;
-    border-radius: 50%;
+}
+.firstProject {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
 }
 
 footer {
