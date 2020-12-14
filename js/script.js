@@ -43,21 +43,7 @@ function darkMode() {
     let counter = 0
     switchInput.addEventListener('click', () => {
         let colorContainer = body.style.backgroundColor;
-
-        switch(counter) {
-            
-            case 0:
-                body.style.backgroundColor = '#fff';
-                body.style.color = '#000';
-                counter++
-                break;
-
-            case 1:
-                body.style.backgroundColor = '#1e272e';
-                body.style.color = '#fff';
-                counter--
-                break;
-        }
+        body.classList.toggle('lightMode')
 
     })
 

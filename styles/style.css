@@ -11,6 +11,14 @@ body {
   background-color: #1e272e;
   color: white;
   display: flex;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.lightMode {
+  background-color: #fff;
+  color: #000;
+
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 aside {
