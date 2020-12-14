@@ -35,3 +35,32 @@ function projects() {
 }
 
 projects();
+
+
+function darkMode() {
+    let switchInput = document.querySelector('#darkMode');
+    let body = document.querySelector('body');
+    let counter = 0
+    switchInput.addEventListener('click', () => {
+        let colorContainer = body.style.backgroundColor;
+
+        switch(counter) {
+            
+            case 0:
+                body.style.backgroundColor = '#fff';
+                body.style.color = '#000';
+                counter++
+                break;
+
+            case 1:
+                body.style.backgroundColor = '#1e272e';
+                body.style.color = '#fff';
+                counter--
+                break;
+        }
+
+    })
+
+}
+
+darkMode();
