@@ -18,10 +18,20 @@ function socialMedia() {
 
             }
         
-        })
+        });
     }
 
 
 }
 
 socialMedia();
+
+function projects() {
+    const projectTrybe = document.querySelector('.project1');
+
+    projectTrybe.addEventListener('click', () => {
+        window.open('./project_1/todolist.html', '_blank');
+    });
+}
+
+projects();
