@@ -1,72 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
-    <title>JD GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/11720ade63.js" crossorigin="anonymous"></script>
+  
+  <title>Document</title>
 </head>
 <body>
-    <main>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#projectContent">Projects</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+  <aside>
+    <ul class="nav-links">
+      <a href="#about">
+        <li>Contact</li>
+      </a>
+      <a href="#tech">
+        <li>Tech</li>
+      </a>
+      <a href="#recent-work">
+        <li>Projects</li>
+      </a>
+    </ul>
+  </aside>
+  <br>
+  <main>
+    <section id="about" class="open-content">
+      <div>
+        <img src="./img/javascript-coding-language.png" alt="">
+      </div>
+      <br>
+      <div class="main-content-container">
+        <h2 class="main-title">Hello everyone</h2>
         <br>
+        <p class="ptag">My name is Jose Daniel, I'm a web developer student in Trybe. I have twenty-four years old. I born in San Jose, a small town in the eastern of Venezuela. But since two years ago I live in Recife, Brazil.</p>
         <br>
-        <section class="main-content">
-            <article class="main-articles">
-                <h1 class="main-article-title">HELLO THERE</h1>
-                <p>I'm Jose Daniel, web develoment student, looking for new enriching experiences that bring something positive to my life. Nice to meet you.</p>
-            </article>
-            <article class="main-articles">
-                <img src="./img/development-4536630_1280.png" alt="">
-            </article>
-        </section>
-        <br>
-        <br>
-        <a href="#projectContent"><i class="fas fa-chevron-down down-page-icons"></i></a>
-        <br>
-        <br>
-        <section class="projects-box" id="projectContent">
-            <h2 id="titleProjects">Projects</h2>
-            <article></article>
-            <article class="projectContainer">
-                <div class="firstProject">
-                  <a href="todolist.html"><img src="./img/2020-12-11_21-56.png" width='200px' alt=""></a> 
-                        <legend>To do list: CSS, JS</legend>
-                </div>
-            </article>
-        </section>
-        
-        <br>    
-        <section class="second-article-section" id="second">
-            <h2 class="title-tech">Techs that i can use</h2>
-            <div class="tech-box">
-                <i class="fab fa-html5 tech-icons"></i>
-            </div>
-            <div class="tech-box2">
-                <i class="fab fa-css3-alt tech-icons"></i>
-            </div>
-            <div class="tech-box3" id="jscripticon">
-                <i class="fab fa-js-square tech-icons"></i>
-            </div>
-            <div class="tech-box4">
-                <i class="fab fa-github-square tech-icons"></i>
-            </div>
-            <footer><h5>Made by Jose Daniel Arreaza with <span class="fas fa-coffee footerIcons"></span> and <span class="fas fa-heart footerIcons"></span></h5></footer>
-        </section>
-    </main>
+        <button class="display-Project linkedin"><a href="https://www.instagram.com/jdaniel_ap/" target="_blank"></a></button>
+        <button class="display-Project github"></button>
+        <button class="display-Project instagram"></button>
+      </div>
+    </section>
+    <br id="tech">
+    <section class="project-content">
+      <div class="title">
+        <h3 id="techLenguage">Dev Tools</h3>
+      </div>
+      <div class="project-box-container">
+        <div class="project-box">
+          <i class='fab fa-html5 project-icons'></i>
+        </div>
+        <div class="project-box">
+          <i class="fab fa-js project-icons"></i>
+        </div>
+        <div class="project-box">
+          <i class='fab fa-css3-alt project-icons'></i>
+        </div>
+        <div class="project-box">
+        <i class="fab fa-github-square project-icons"></i>
+      </div>
+      </div>
+    </section>
+    <br>
+    <section id="recent-work" class="project-content recent-project">
+      <div class="title">
+        <h3 id="recent">My recent work</h3>
+      </div>
+      <div class="project-box-container">
+        <div class="project">
+        </div>
+        <div class="project1">
+          <img src="./img/2020-12-13_14-19.png" alt="">
+        </div>
+        <div class="project">
 
-
-    <script src="./js/1333.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
 </body>
 </html>
