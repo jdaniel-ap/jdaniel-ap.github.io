@@ -134,8 +134,6 @@ button:hover::after{
   margin: auto;
   margin-top: 200px;
   margin-bottom: 200px;
-
-
 }
 
 .project-content.selected {
@@ -161,14 +159,16 @@ button:hover::after{
 
 
 .project-box {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   margin: auto;
   display: flex;
   flex-direction: column;
+  align-content: center;
   border-radius: 3px;
   padding: 5px;
-  transition: all 0.4s ease 0.6s;
+  transition: 0.6s;
+  background-color: transparent;
 }
 
 #recent::before{
@@ -205,6 +205,8 @@ button:hover::after{
   opacity: 0;
 }
 
+
+
 .project-box:nth-of-type(2) .project-icons::after {
   background-color: #f9ca24;
 }
@@ -214,7 +216,7 @@ button:hover::after{
 }
 
 .project-box:nth-of-type(4) .project-icons::after {
-  background-color: #0c5f9e;
+  background-color: #4078c0;
 }
 
 .project-title {
@@ -270,7 +272,15 @@ button:hover::after{
 }
 
 button:hover {
-  background-color: #ff3f34;
+  background-color: #0077B5;
+}
+
+button:nth-of-type(2):hover {
+  background-color: #4078c0;
+}
+
+button:nth-of-type(3):hover {
+  background-color: #e4405f;
 }
 
 button:active {
@@ -295,6 +305,18 @@ li:hover {
   background-position: 0 0; 
 }
 
+.project-box:hover {
+  color: #eb4d4b;
+}
+.project-box:nth-of-type(2):hover {
+  color: #f9cb24;
+}
+.project-box:nth-of-type(3):hover {
+  color: #0984e3;
+}
+.project-box:nth-of-type(4):hover {
+  color: #4078c0;
+}
 
 @media screen and (min-width : 1250px){
   aside {
