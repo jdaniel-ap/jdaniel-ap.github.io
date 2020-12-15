@@ -40,10 +40,14 @@ projects();
 function darkMode() {
     let switchInput = document.querySelector('#darkMode');
     let body = document.querySelector('body');
-    let counter = 0
+
     switchInput.addEventListener('click', () => {
-        let colorContainer = body.style.backgroundColor;
         body.classList.toggle('lightMode')
+        let buttons = document.querySelectorAll('button');
+        for(let i = 0; i < buttons.length; i ++) {
+            buttons[i].classList.toggle('btnLightMode')
+
+        }
 
     })
 
