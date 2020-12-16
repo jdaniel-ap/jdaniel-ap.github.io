@@ -16,6 +16,18 @@ function socialMedia() {
                     window.open('https://www.instagram.com/jdaniel_ap/', '_blank');
                     break;
 
+                case 'display-Project linkedin btnLightMode':
+                    window.open('https://www.linkedin.com/in/esoja/', '_blank');
+                    break;
+
+                case 'display-Project github btnLightMode':
+                    window.open('https://www.linkedin.com/in/esoja/', '_blank');
+                    break;
+
+                case 'display-Project instagram btnLightMode':
+                    window.open('https://www.linkedin.com/in/esoja/', '_blank');
+                      break;
+
             }
         
         });
