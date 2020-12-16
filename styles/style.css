@@ -33,7 +33,7 @@ aside {
 }
 
 ul {
-  margin-bottom: 200px;
+  margin-bottom: 500px;
 }
 
 .nav-links li {
@@ -54,6 +54,7 @@ ul {
   margin: auto;
   cursor: pointer;
 }
+
 
 
 .open-content {
@@ -285,7 +286,7 @@ button:hover::after{
 /* Animations */
 
 .nav-links li:hover {
-  background-color: #706fd3;
+ 
   
 }
 
@@ -321,6 +322,7 @@ button:active {
 
 li:hover {
   background-position: 0 0; 
+  background-color: #706fd3;
 }
 
 .project-box:hover {
@@ -342,7 +344,7 @@ li:hover {
   }
 
   main {
-    margin-left: 400px;
+    margin-left: 370px;
   }
 
 }
@@ -363,6 +365,7 @@ input[type='checkbox'] {
   transition: .5s;
   width: 80px;
   -webkit-appearance: none;
+  cursor: pointer;
 }
 
 input:checked[type='checkbox'] {
@@ -372,16 +375,31 @@ input:checked[type='checkbox'] {
 input[type='checkbox']::before {
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.548);
   content: '';
   height: 40px;
   left: 0px;
   position: absolute;
-  transform:  scale(1.1);
-  transition: .5s;
+  transform:  scale(0.95);
+  transition: .2s;
+  width: 40px;
+}
+input[type='checkbox']::after {
+  background-color: #fff;
+  border-radius: 50%;
+  content: '';
+  height: 40px;
+  left: 0px;
+  position: absolute;
+  transform:  scale(0.95);
+  transition: 0.32s;
   width: 40px;
 }
 
 input:checked[type='checkbox']::before {
+  left: 40px;
+}
+
+input:checked[type='checkbox']::after {
   left: 40px;
 }
