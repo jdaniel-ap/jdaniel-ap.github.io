@@ -254,7 +254,6 @@ footer {
         left: 0;
         bottom: 0;
         background-color: #111;
-        /* same background-color as navbar */
         background-position: center top;
     }
     .nav-Wrapper-List-Item {
