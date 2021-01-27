@@ -133,7 +133,7 @@
     cursor: pointer;
   }
   
-  .card__side {
+  .card-side {
     height: 52rem;
     -webkit-transition: all 0.8s ease;
     transition: all 0.8s ease;
@@ -149,47 +149,47 @@
             box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   }
   
-  .card__side--front {
+  .card-side--front {
     background-color: #fff;
   }
   
-  .card__side--front-1 {
+  .card-side--front-1 {
     background: linear-gradient(-45deg, #f53b57, #3c40c6);
   }
   
-  .card__side--front-2 {
+  .card-side--front-2 {
     background: linear-gradient(-45deg, #ee5253, #48dbfb);
   }
   
-  .card__side--front-3 {
+  .card-side--front-3 {
     background: linear-gradient(-45deg, #ff7f50, #3742fa);
   }
   
-  .card__side--back {
+  .card-side--back {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
   }
   
-  .card__side--back-1 {
+  .card-side--back-1 {
     background: linear-gradient(-45deg,  #3c40c6, #f53b57);
   }
   
-  .card__side--back-2 {
+  .card-side--back-2 {
     background: linear-gradient(-45deg,  #48dbfb, #ee5253);
   }
   
-  .card__side--back-3 {
+  .card-side--back-3 {
     background: linear-gradient(-45deg, #9a4eff, #ffd32a);
   }
   
-  .card:hover .card__side--front-1,
-  .card:hover .card__side--front-2,
-  .card:hover .card__side--front-3 {
+  .card:hover .card-side--front-1,
+  .card:hover .card-side--front-2,
+  .card:hover .card-side--front-3 {
     -webkit-transform: rotateY(-180deg);
             transform: rotateY(-180deg);
   }
   
-  .card:hover .card__side--back {
+  .card:hover .card-side--back {
     -webkit-transform: rotateY(0);
             transform: rotateY(0);
   }

@@ -11,42 +11,20 @@ function myFunction() {
   }
 }
 
-function socialMedia() {
-    const socialMediaBtn = document.querySelectorAll('.display-Project');
-    for (let i = 0; i < socialMediaBtn.length; i++) {
-        socialMediaBtn[i].addEventListener('click', () => {
-            let classContainer = socialMediaBtn[i].className;
-            switch(classContainer) {
-                case 'display-Project linkedin':
-                    window.open('https://www.linkedin.com/in/esoja/', '_blank');
-                    break;
-                
-               case 'display-Project github':
-                    window.open('https://github.com/jdaniel-ap', '_blank');
-                    break;
 
-               case 'display-Project instagram':
-                    window.open('https://www.instagram.com/jdaniel_ap/', '_blank');
-                    break;
+function socialMediaObject() {
+  const inputMap = {
+    'display-Project linkedin': 'https://www.linkedin.com/in/esoja/',
+    'display-Project github': 'https://github.com/jdaniel-ap',
+    'display-Project instagram': 'https://www.instagram.com/jdaniel_ap/'
+  };
 
-                case 'display-Project linkedin btnLightMode':
-                    window.open('https://www.linkedin.com/in/esoja/', '_blank');
-                    break;
-
-                case 'display-Project github btnLightMode':
-                    window.open('https://www.linkedin.com/in/esoja/', '_blank');
-                    break;
-
-                case 'display-Project instagram btnLightMode':
-                    window.open('https://www.linkedin.com/in/esoja/', '_blank');
-                      break;
-
-            }
-        
-        });
-    }
-
-
+  const socialMediaBtn = document.querySelectorAll('.display-Project');
+  for (let i = 0; i < socialMediaBtn.length; i++) {
+    socialMediaBtn[i].addEventListener('click', () => {
+      let classContainer = socialMediaBtn[i].className;
+      return window.open(inputMap[classContainer], '_blank')
+    });
+  }
 }
-
-socialMedia();
+socialMediaObject() 
